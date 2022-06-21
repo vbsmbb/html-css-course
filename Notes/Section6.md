@@ -169,4 +169,5 @@
 1. This is a new occurrence in web pages
 2. Is not the standard, but is out there
 3. Components are placed on teh page in a assymetric fashion
-4. 
+
+
