@@ -190,4 +190,11 @@
 		+ If no font size is set, it is the default font size of the browser
 		+ Most browsers default font size is 16 pixels
 		+ Therefore, unless the font size of the HTML element is set or the browser default font size has been changed, the size of 1rem = 16px.
-	* 
+		+ Normally 50rem = 800px.
+	* For easier REM to PIXEL calculations, set the REM to 10 pixels
+		+ You can set it directlysetting the font-size to 10 pixels in teh HTML (root) tag
+		+ However, this may cause the user issues if they want to change the default pixel size in their browser
+		+ Therefore, set the font-size to be 62.5%
+		+ 10/16*100 = 62.5%
+		+ Now if the user changes the default pixel settings on the web page will change accordingly
+
